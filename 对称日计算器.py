@@ -1,6 +1,6 @@
 from datetime import date,timedelta
 import os
-os.system("cmd.exe /c del /f /q datelist.txt>nul")#删掉上一次执行时的列表
+os.system("del /f /q datelist.txt>nul")#删掉上一次执行时的列表
 def check(num):
 	return str(num) == str(num)[::-1]#检查遍历出的数字是否回文
 def choose():#定义用户输入
